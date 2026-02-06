@@ -4,7 +4,7 @@ Donate link:       https://cash.me/$AndrewRMinionDesign
 Tags:              youtube, live, video, embed
 Requires at least: 3.6
 Tested up to:      6.3.2
-Stable tag:        1.10.0
+Stable tag:        1.10.1
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -172,11 +172,18 @@ Because this plugin helps you use the YouTube service, you should refer to these
 - [YouTube Terms of Service](https://www.youtube.com/t/terms)
 - [Google Privacy Policy](https://policies.google.com/privacy)
 
+= How can I report security bugs? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team helps validate, triage and handle any security vulnerabilities. [Report a security vulnerability.]( https://patchstack.com/database/vdp/ba780b5d-5e4e-4b5a-aa46-21df29abcd05 )
+
 == Screenshots ==
 
 1. Settings screen
 
 == Changelog ==
+
+= 1.10.1 =
+- Add nonce to protect cache flush
 
 = 1.10.0 =
 - Fix `show_related` parameter
